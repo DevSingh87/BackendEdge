@@ -1,7 +1,7 @@
 BackendEdge
 ===========
 
-BackendEdge is modified version of BackendPro based on Codeigniter 2.1.3
+BackendEdge is modified version of BackendPro based on Codeigniter 2.1.2
 
 It has new views created using twitter-bootstrap.
 
