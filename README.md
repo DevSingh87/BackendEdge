@@ -19,19 +19,19 @@ What can it do?
 It can do lots.
 
 
-User Authentication with registration and account activation
+$$ User Authentication with registration and account activation
 
-User Permissions by using Access Control Lists (Has Access Control area to manage your websites access permissions)
+$$ User Permissions by using Access Control Lists (Has Access Control area to manage your websites access permissions)
 
-Site Preferences (Stored in a database with simple to use UI to update and change preferences)
+$$ Site Preferences (Stored in a database with simple to use UI to update and change preferences)
 
-Improved Asset Library (Means loading assets onto pages is quick and simple,
-also has asset caching to speed up the loading of asset files)
+$$ Improved Asset Library (Means loading assets onto pages is quick and simple,
+   also has asset caching to speed up the loading of asset files)
 
-PHP to javascript variable conversion (Easy way to pass PHP variables into your javascript scripts)
+$$ PHP to javascript variable conversion (Easy way to pass PHP variables into your javascript scripts)
 
-ReCAPTCHA
+$$ ReCAPTCHA
 
-Status messages (Can display info/success/warning/error messages to the user)
+$$ Status messages (Can display info/success/warning/error messages to the user)
 
-Breadcrumb trail creation
+$$ Breadcrumb trail creation
