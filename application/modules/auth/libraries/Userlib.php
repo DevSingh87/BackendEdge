@@ -1,15 +1,15 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
- * BackendEdge
+ * BackendVoir
  *
  * An updated version of BackedPro, an open source development control panel written in PHP
  *
- * @package		BackendEdge
- * @author		Dev Kumar
- * @copyright	Copyright (c) 2013, Dev Kumar
+ * @package		BackendVoir
+ * @author		Kumar Dev
+ * @copyright	Copyright (c) 2012, Kumar Dev
  * @license		http://www.gnu.org/licenses/lgpl.html
- * @link		https://github.com/TechieDev/BackendEdge
- * @email       techiedev1987@gmail.com
+ * @link		http://www.webdevoir.com/projects/backendvoir
+ * @email       php.dev1987@gmail.com
  * @filesource
  */
 /**
@@ -51,7 +51,7 @@ class Userlib
 
 		// Load any other helpers/libraries needed
 		$this->CI->load->helper('cookie');
-		$this->CI->load->helper('auth/Khacl');
+		$this->CI->load->helper('auth/khacl');
 
 		// Initialise the class
 		$this->_init();

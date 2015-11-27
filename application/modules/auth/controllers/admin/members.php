@@ -66,6 +66,7 @@ class Members extends Admin_Controller
 	 */
 	function index()
 	{
+		
 		// Get Member Infomation
 		$data['members'] = $this->user_model->getUsers();
 

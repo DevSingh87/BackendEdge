@@ -400,51 +400,8 @@ public function check_user_withcertificatno($cerno=""){
    }
 }
 
-/**
-* FUNCTION FOR 
-* CHECK USER EMAIL ID
-*/
-  function check_user_emailid($emailid = ""){
-    $sql = "SELECT id,fullname,email FROM be_users WHERE email='".$emailid."'";
-	$query = $this->db->query($sql);
-    $numrows = $query->num_rows();
-    if($numrows>0){
-	 return $query->result_array();
-	  //return 'email_exist';
-    }
-    else{
-	  return 'email_notexist';
-     }
-  }
-/**
-*FUNCTION FOR 
-*GET USER INFO
-*ON ID
-*/  
-  public function get_userinfo($userid=''){
-  
-    $sql = "SELECT id,fullname,email FROM be_users WHERE id='".$userid."'";
-	$query = $this->db->query($sql);
-    $numrows = $query->num_rows();
-    if($numrows>0){
-	 return $query->result_array();	 
-    }
-  }
-
-/**
-*FUNCTION FOR 
-*RESET USER PASSWORD
-*/
-public function resetpassword($userid="",$password=""){
- $newpasswod = $this->userlib->encode_password($password);
- $sql = "update be_users set password='".$newpasswod."'
-         WHERE id='".$userid."'";
- $this->db->query($sql);
- return true;
-}  
-  
+	
 }
-
 
 /* End of file: user_model.php */
 /* Location: ./modules/auth/controllers/admin/user_model.php */
